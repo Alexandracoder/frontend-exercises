@@ -1,0 +1,272 @@
+main {
+    max-width: 600px; margin: 0 auto;
+}
+header {text-align: center; font-size: 1.5rem; margin: 1rem 0;
+font-weight: bold;font-family: sans-serif;
+}
+h1 {font-size: 2rem; margin: 0;
+}
+.h2, h2 {
+    background-color: rgb(100, 99, 99);
+    text-align: left;
+    padding-block: 15px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 600px;
+}
+p {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 450px;
+}
+
+
+img {
+    width: 170px;
+    float: left;
+    padding-top: 10px;
+    text-align: justify;
+    
+}
+#first, #second {
+    align-items: center;
+    margin-left: 100px;
+}
+h3 {
+    font-weight: bold;font-size: 2rem;color: black;text-align: center;
+}
+.letras {
+    max-width: 600px;
+    max-height: 300px;
+    background-color: transparent;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px 40px;
+    justify-content: center;
+    align-content: space-around;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.cool-gray {
+    color: #64748b;
+}
+
+.cyan {
+    color: #06b6d4;
+}
+
+.sky {
+    color: #0ea5e9;
+}
+
+.fuchsia {
+    color: #e879f9;
+}
+
+.purple {
+    color: #8b5cf6;
+}
+
+.warm-gray {
+    color: #a8a29e;
+}
+
+.red {
+    color: #ef4444;
+}
+
+.orange {
+    color: #f97316;
+}
+
+.pink {
+    color: #ec4899;
+}
+
+.violet {
+    color: #8b5cf6;
+}
+
+.amber {
+    color: #f59e0b;
+}
+
+.yellow {
+    color: #facc15;
+}
+
+.lime {
+    color: #84cc16;
+}
+
+.rose {
+    color: #f43f5e;
+}
+
+.indigo {
+    color: #6366f1;
+}
+
+.green {
+    color: #22c55e;
+}
+
+.emerald {
+    color: #10b981;
+}
+
+.teal {
+    color: #14b8a6;
+}
+
+.blue-gray {
+    color: #64748b;
+}
+
+.blue {
+    color: #3b82f6;
+}
+
+.colores-fondo {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.colores-fondo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.colores-fondo .tabla-colores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 800px;
+    margin: auto;
+}
+
+.colores-fondo .celda {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.colores-fondo .blue-gray {
+    background-color: #1e293b;
+    grid-column: span 4;
+}
+
+.colores-fondo .cool-gray {
+    background-color: #64748b;
+}
+
+.colores-fondo .warm-gray {
+    background-color: #a8a29e;
+}
+
+.colores-fondo .amber {
+    background-color: #d97706;
+}
+
+.colores-fondo .green {
+    background-color: #22c55e;
+}
+
+.colores-fondo .gray {
+    background-color: #374151;
+}
+
+.colores-fondo .red {
+    background-color: #ef4444;
+}
+
+.colores-fondo .yellow {
+    background-color: #facc15;
+}
+
+.colores-fondo .emerald {
+    background-color: #10b981;
+}
+
+.colores-fondo .true-gray {
+    background-color: #6b7280;
+}
+
+.colores-fondo .orange {
+    background-color: #f97316;
+}
+
+.colores-fondo .lime {
+    background-color: #84cc16;
+}
+
+.colores-fondo .teal {
+    background-color: #14b8a6;
+}
+
+.colores-fondo .fuchsia {
+    background-color: #d946ef;
+}
+
+.colores-fondo .pink {
+    background-color: #ec4899;
+}
+
+.colores-fondo .rose {
+    background-color: #f43f5e;
+    grid-column: span 2;
+}
+
+.colores-fondo .purple {
+    background-color: #8b5cf6;
+}
+
+.colores-fondo .violet {
+    background-color: #7c3aed;
+}
+
+.colores-fondo .indigo {
+    background-color: #6366f1;
+}
+
+.colores-fondo .blue {
+    background-color: #3b82f6;
+}
+
+.colores-fondo .sky {
+    background-color: #0ea5e9;
+    grid-column: span 2;
+}
+
+.colores-fondo .cyan {
+    background-color: #06b6d4;
+    grid-column: span 2;
+}
+
+.color-grid-section {
+    background-color: #0a0f1a;
+    padding: 20px;
+    width: fit-content;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+.color-grid-section .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 30px);
+    grid-gap: 6px;
+}
+
+.color-grid-section .cell {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+}
